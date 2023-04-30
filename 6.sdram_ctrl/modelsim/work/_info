@@ -1,0 +1,196 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/fpag_codes/my_gits/uart/modelsim
+vclk_1us_gen
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1682155773
+!i10b 1
+!s100 B8AZ:[dYom:>KE=o4E>XH2
+IQBa9YnOTUGUT;nlT@7Cb?1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 !s105 sdram_atref_sv_unit
+S1
+Z3 dD:/fpag_codes/my_gits/sdram_ctrl/modelsim
+w1682155437
+Z4 8D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_atref.sv
+Z5 FD:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_atref.sv
+L0 171
+Z6 OP;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1682155773.000000
+Z7 !s107 D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_atref.sv|
+Z8 !s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_atref.sv|
+!i113 1
+Z9 o-work work -sv
+Z10 tCvgOpt 0
+vmt48lc2m32b2
+Z11 !s110 1682162264
+!i10b 1
+!s100 cPgO?mIeRGIDlBE:bWo3F2
+Ib9P_70:Pk_Ig3b[`BzWL`0
+R1
+R3
+w1371390258
+8D:/fpag_codes/my_gits/sdram_ctrl/model/mt48lc2m32b2.v
+FD:/fpag_codes/my_gits/sdram_ctrl/model/mt48lc2m32b2.v
+L0 42
+R6
+r1
+!s85 0
+31
+Z12 !s108 1682162264.000000
+!s107 D:/fpag_codes/my_gits/sdram_ctrl/model/mt48lc2m32b2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/fpag_codes/my_gits/sdram_ctrl/model/mt48lc2m32b2.v|
+!i113 1
+Z13 o-work work
+R10
+vsdram_atref
+R0
+R11
+!i10b 1
+!s100 G>dRXK]b1`gGUJn?=kDUb1
+IoU@PmN0WngKdKdGfS9TWh3
+R1
+R2
+S1
+R3
+w1682161824
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R12
+R7
+R8
+!i113 1
+R9
+R10
+vsdram_ctrl_top
+R0
+R11
+!i10b 1
+!s100 e2Skbm6DP9T:Y=3R=2_hQ1
+IhYbNZG5Nb4bSVNS]=[hG`3
+R1
+!s105 sdram_ctrl_top_sv_unit
+S1
+R3
+w1682155769
+8D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_ctrl_top.sv
+FD:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_ctrl_top.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_ctrl_top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_ctrl_top.sv|
+!i113 1
+R9
+R10
+vsdram_init
+R0
+R11
+!i10b 1
+!s100 ;8gg[_hV=5Kgz]3[h^5aa1
+IB2deZ0hSJTZ=ijkRD]baa0
+R1
+!s105 sdram_init_sv_unit
+S1
+R3
+w1682154977
+8D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_init.sv
+FD:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_init.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_init.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_init.sv|
+!i113 1
+R9
+R10
+vsdram_model_plus
+!s110 1682162265
+!i10b 1
+!s100 1Gh>>HPRMEA:gfao?lSf03
+IY8NhRP^zJFK@@Zb]`FgQ?1
+R1
+R3
+w1677992573
+8D:/fpag_codes/my_gits/sdram_ctrl/model/sdram_model_plus.v
+FD:/fpag_codes/my_gits/sdram_ctrl/model/sdram_model_plus.v
+L0 58
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/fpag_codes/my_gits/sdram_ctrl/model/sdram_model_plus.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/fpag_codes/my_gits/sdram_ctrl/model/sdram_model_plus.v|
+!i113 1
+R13
+R10
+vtb_sdram_atref
+R0
+R11
+!i10b 1
+!s100 79:ckm`MlE7;6:M6mj61o3
+Ia[Q`GLO0P=O^PV[>a9kD^2
+R1
+!s105 atref_tb_sv_unit
+S1
+R3
+w1682162243
+8D:/fpag_codes/my_gits/sdram_ctrl/tb/atref_tb.sv
+FD:/fpag_codes/my_gits/sdram_ctrl/tb/atref_tb.sv
+L0 4
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/fpag_codes/my_gits/sdram_ctrl/tb/atref_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/fpag_codes/my_gits/sdram_ctrl/tb/atref_tb.sv|
+!i113 1
+R9
+R10
+vtb_sdram_init
+R0
+R11
+!i10b 1
+!s100 XzZI9Ke<mW<4_TFC97@KD3
+IlaSdl]I@YA;_f1Yf`d8:V0
+R1
+!s105 init_tb_sv_unit
+S1
+R3
+w1682141612
+8D:/fpag_codes/my_gits/sdram_ctrl/tb/init_tb.sv
+FD:/fpag_codes/my_gits/sdram_ctrl/tb/init_tb.sv
+L0 4
+R6
+r1
+!s85 0
+31
+R12
+!s107 D:/fpag_codes/my_gits/sdram_ctrl/tb/init_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/fpag_codes/my_gits/sdram_ctrl/tb/init_tb.sv|
+!i113 1
+R9
+R10

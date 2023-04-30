@@ -1,0 +1,22 @@
+D:/fpag_codes/my_gits/sync_fifo/tb/tb_sync_fifo2.sv {1 {vlog -work work -sv -stats=none D:/fpag_codes/my_gits/sync_fifo/tb/tb_sync_fifo2.sv
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_sync_fifo2
+
+Top level modules:
+	tb_sync_fifo2
+
+} {} {}} D:/fpag_codes/my_gits/sync_fifo/rtl/sync_fifo.sv {1 {vlog -work work -sv -stats=none D:/fpag_codes/my_gits/sync_fifo/rtl/sync_fifo.sv
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module sync_fifo
+
+Top level modules:
+	sync_fifo
+
+} {} {}} D:/fpag_codes/my_gits/sync_fifo/tb/tb_sync_fifo.sv {1 {vlog -work work -sv -stats=none D:/fpag_codes/my_gits/sync_fifo/tb/tb_sync_fifo.sv
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_sync_fifo
+
+Top level modules:
+	tb_sync_fifo
+
+} {} {}}

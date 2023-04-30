@@ -1,0 +1,8 @@
+D:/fpag_codes/my_gits/uart_tx_fifo/tb/tb_uart_tx_fifo.sv {1 {vlog -work work -sv -stats=none D:/fpag_codes/my_gits/uart_tx_fifo/tb/tb_uart_tx_fifo.sv
+Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_
+
+Top level modules:
+	tb_
+
+} {} {}}
