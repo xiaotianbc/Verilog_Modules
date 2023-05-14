@@ -1,0 +1,5 @@
+"../../../../tb/atref_tb.sv"	1
+"../../../../rtl/sdram_atref.sv"	1
+"../../../../rtl/sdram_ctrl_top.sv"	1
+"../../../../model/sdram_model_plus.v"	2
+"../../../../rtl/sdram_init.sv"	1

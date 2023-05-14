@@ -1,43 +1,36 @@
-D:/fpag_codes/my_gits/sdram_ctrl/model/mt48lc2m32b2.v {1 {vlog -work work -stats=none D:/fpag_codes/my_gits/sdram_ctrl/model/mt48lc2m32b2.v
-Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module mt48lc2m32b2
-
-Top level modules:
-	mt48lc2m32b2
-
-} {} {}} D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_atref.sv {1 {vlog -work work -sv -stats=none D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_atref.sv
-Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_atref.sv {1 {vlog -work work -vopt -sv -stats=none D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_atref.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 -- Compiling module sdram_atref
 
 Top level modules:
 	sdram_atref
 
-} {} {}} D:/fpag_codes/my_gits/sdram_ctrl/tb/init_tb.sv {1 {vlog -work work -sv -stats=none D:/fpag_codes/my_gits/sdram_ctrl/tb/init_tb.sv
-Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module tb_sdram_init
-
-Top level modules:
-	tb_sdram_init
-
-} {} {}} D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_ctrl_top.sv {1 {vlog -work work -sv -stats=none D:/fpag_codes/my_gits/sdram_ctrl/rtl/sdram_ctrl_top.sv
-Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+} {} {}} D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_ctrl_top.sv {1 {vlog -work work -vopt -sv -stats=none D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_ctrl_top.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 -- Compiling module sdram_ctrl_top
 
 Top level modules:
 	sdram_ctrl_top
 
-} {} {}} D:/fpag_codes/my_gits/sdram_ctrl/model/sdram_model_plus.v {1 {vlog -work work -stats=none D:/fpag_codes/my_gits/sdram_ctrl/model/sdram_model_plus.v
-Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module sdram_model_plus
+} {} {}} D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_init.sv {1 {vlog -work work -vopt -sv -stats=none D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_init.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module sdram_init
 
 Top level modules:
-	sdram_model_plus
+	sdram_init
 
-} {} {}} D:/fpag_codes/my_gits/sdram_ctrl/tb/atref_tb.sv {1 {vlog -work work -sv -stats=none D:/fpag_codes/my_gits/sdram_ctrl/tb/atref_tb.sv
-Model Technology ModelSim DE-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module tb_sdram_atref
+} {} {}} D:/fpag_codes/my_gits/6.sdram_ctrl/tb/tb_wr.sv {1 {vlog -work work -vopt -sv -stats=none D:/fpag_codes/my_gits/6.sdram_ctrl/tb/tb_wr.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_sdram_wr
 
 Top level modules:
-	tb_sdram_atref
+	tb_sdram_wr
+
+} {} {}} D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_wr.sv {1 {vlog -work work -vopt -sv -stats=none D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_wr.sv
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module sdram_wr
+
+Top level modules:
+	sdram_wr
 
 } {} {}}

@@ -1,0 +1,13 @@
+3
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 1 "../../../../rtl/sdram_atref.sv" 1 sdram_atref
+~A 1 "../../../../rtl/sdram_atref.sv" 1 sdram_atref
+~M 1 "../../../../rtl/sdram_ctrl_top.sv" 1 sdram_ctrl_top
+~A 1 "../../../../rtl/sdram_ctrl_top.sv" 1 sdram_ctrl_top
+~M 1 "../../../../rtl/sdram_init.sv" 1 sdram_init
+~A 1 "../../../../rtl/sdram_init.sv" 1 sdram_init
+~M 1 "../../../../model/sdram_model_plus.v" 58 sdram_model_plus
+~A 1 "../../../../model/sdram_model_plus.v" 58 sdram_model_plus
+~M 3 "../../../../tb/atref_tb.sv" 4 tb_sdram_atref
+~A 1 "../../../../tb/atref_tb.sv" 4 tb_sdram_atref

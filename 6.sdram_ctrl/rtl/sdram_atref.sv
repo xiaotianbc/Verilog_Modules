@@ -122,19 +122,7 @@ module sdram_atref (
         end
     end
 
-    always_ff @( posedge clk) begin
-        if (!rst_n) begin
-            atref_done<=1'b0;
-        end
-        else begin
-            if (state==ST_REF && ref_end) begin
-                atref_done<=1'b1;
-            end
-            else begin
-                atref_done<=1'b0;
-            end
-        end
-    end
+
 
 
     always_ff @( posedge clk) begin

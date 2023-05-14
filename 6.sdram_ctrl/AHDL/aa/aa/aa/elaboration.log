@@ -1,0 +1,27 @@
+Active-HDL 13.0.376.8320 2023-04-30 15:23:16
+
+Elaboration top modules:
+Verilog Module                tb_sdram_atref
+
+
+-------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+tb_sdram_atref          | aa      |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+sdram_ctrl_top          | aa      |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+sdram_model_plus        | aa      |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+sdram_init              | aa      |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+sdram_atref             | aa      |      | 13.0.376.8320 (Windows64) | -O2 -sv2k12
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+aa                      | None
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +accb +accr +access +r +access +r+w tb_sdram_atref
+
+
+The performance of simulation is reduced. Version Student Edition

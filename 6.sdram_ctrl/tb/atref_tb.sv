@@ -77,7 +77,12 @@ module tb_sdram_atref;
         @(posedge clk);
         repeat(2) @(posedge clk);
 
+        #300000000;
+        $finish();
+
     end
+
+
 
 endmodule
 `default_nettype wire

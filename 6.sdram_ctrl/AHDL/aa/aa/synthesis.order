@@ -1,0 +1,5 @@
+i<>.\..\..\..\rtl\sdram_atref.sv
+i<>.\..\..\..\rtl\sdram_ctrl_top.sv
+i<>.\..\..\..\rtl\sdram_init.sv
+i<>.\..\..\..\tb\atref_tb.sv
+i<>.\..\..\..\model\sdram_model_plus.v

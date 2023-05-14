@@ -1,0 +1,47 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=aa
+[Library]
+aa=.\aa\aa.lib
+[$LibMap$]
+aa=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VERILOG
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=D:\fpag_codes\my_gits\6.sdram_ctrl\model
+AccessACCB=1
+AccessACCR=1
+AccessReadTopLevel=0
+AccessRead=1
+AccessReadWrite=1
+AccessReadWriteSLP=0
+SimulationAccessReadPaths=
+SimulationAccessReadModules=
+SimulationAccessReadWritePaths=
+SimulationAccessReadWriteModules=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+[Files.Data]
+.\..\..\..\rtl\sdram_atref.sv=SystemVerilog Source Code
+.\..\..\..\rtl\sdram_ctrl_top.sv=SystemVerilog Source Code
+.\..\..\..\rtl\sdram_init.sv=SystemVerilog Source Code
+.\..\..\..\tb\atref_tb.sv=SystemVerilog Source Code
+.\..\..\..\model\sdram_model_plus.v=Verilog Source Code
+[Files]
+/..\..\..\..\rtl\sdram_atref.sv=-1
+/..\..\..\..\rtl\sdram_ctrl_top.sv=-1
+/..\..\..\..\rtl\sdram_init.sv=-1
+/..\..\..\..\tb\atref_tb.sv=-1
+/..\..\..\..\model\sdram_model_plus.v=-1
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

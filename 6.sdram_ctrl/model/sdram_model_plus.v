@@ -71,7 +71,7 @@ module sdram_model_plus (Dq, Addr, Ba, Clk, Cke, Cs_n, Ras_n, Cas_n, We_n, Dqm,D
     input                         Ras_n;
     input                         Cas_n;
     input                         We_n;
-    input                 [1 : 0] Dqm;          //高低各8bit
+    input                 [(data_bits>>3)-1 : 0] Dqm;          //高低各8bit
     //added by xzli
     input              Debug;
 

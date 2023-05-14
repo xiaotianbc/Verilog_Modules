@@ -1,0 +1,62 @@
+timestamp=1682839393877
+
+[~A]
+D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_atref.sv_sdram_ctrl_top.sv_sdram_init.sv_atref_tb.sv=0*1577*5075
+D:/fpag_codes/my_gits/6.sdram_ctrl/rtl/sdram_atref.sv_sdram_ctrl_top.sv_sdram_init.sv_atref_tb.sv_sdram_model_plus.v=0*23060*35298
+LastVerilogToplevel=tb_sdram_atref
+ModifyID=3
+Version=74
+
+[~MFT]
+0=10|0aa.mgf|35298|12915
+1=12|1aa.mgf|62190|47695
+3=24|3aa.mgf|117101|77006
+
+[$root]
+A/$root=22|||1*47695
+BinW64/$root=3*77006
+SLP=3*77121
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216c9b8a6e71b3e56e7c2c04ba7ff6df4a0
+
+[sdram_atref]
+A/sdram_atref=22|../../../../rtl/sdram_atref.sv|1|1*48069
+BinW64/sdram_atref=3*77189
+R=../../../../rtl/sdram_atref.sv|1
+SLP=3*81200
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|e358e9c1e8b25cab892945ba6dab93803136785a0c2be437717fb605278c6fec955dcc07e69cc1ea16ee4a40bcb130e8
+
+[sdram_ctrl_top]
+A/sdram_ctrl_top=22|../../../../rtl/sdram_ctrl_top.sv|1|1*52247
+BinW64/sdram_ctrl_top=3*82773
+R=../../../../rtl/sdram_ctrl_top.sv|1
+SLP=3*83721
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|5927719e62fc7ea4ecd322e1aa2c6d150e5d45b1d54e7eee866ad3f4728112c053dcfc5c66673bc7c28db2e271fde9fc
+
+[sdram_init]
+A/sdram_init=22|../../../../rtl/sdram_init.sv|1|1*55781
+BinW64/sdram_init=3*84429
+R=../../../../rtl/sdram_init.sv|1
+SLP=3*88645
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|0f776e3c5a32575deba6d4b5614be448d97b11ef34a21be1775aa35bfea7ba1a5c7459a5dc6e592404a611f71cd3e579
+
+[sdram_model_plus]
+A/sdram_model_plus=22|../../../../model/sdram_model_plus.v|58|1*62190
+BinW64/sdram_model_plus=3*92160
+R=../../../../model/sdram_model_plus.v|58
+SLP=3*117101
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|d48f848f7d7213f12b17525d5159dfe55110e1944e532bec577e7c42b49580deb747e7230842976871fd114222a94c84
+
+[tb_sdram_atref]
+A/tb_sdram_atref=22|../../../../tb/atref_tb.sv|4|1*59337
+BinW64/tb_sdram_atref=3*90194
+R=../../../../tb/atref_tb.sv|4
+SLP=3*91622
+Version=13.0.376.8320 (Windows64)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|a139b3e577a498cdd78ccd2f8afc6bbd2a96e515570592d40206f61381633cb761a4dc1871ec52ee5d4e1e0cb328cce0
+
+[~U]
+$root=12|0*20846|
+sdram_atref=12|0*21060|
+sdram_ctrl_top=12|0*21486|
+sdram_init=12|0*21781|
+sdram_model_plus=12|0*22423|
+tb_sdram_atref=12|0*22176||0x10

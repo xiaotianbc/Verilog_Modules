@@ -1,0 +1,232 @@
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 Module 'sdram_ctrl_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'sdram_init' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'sdram_atref' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 32 (100.00%) other processes in SLP
+# SLP: 159 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4854 kB (elbread=427 elab2=4293 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\fpag_codes\my_gits\6.sdram_ctrl\AHDL\aa\aa\src\wave.asdb
+#  15:23, 2023年4月30日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb'.
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/init_sdr_cmds}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/init_sdr_addr}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/init_sdr_ba}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/init_done}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_cmds}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_addr}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_ba}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_req}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_done}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_en}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/clk}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/rst_n}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_ck}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_cke}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_csn}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_rasn}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_casn}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_wen}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_addr}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_ba}
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/init_sdr_cmds" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/init_sdr_addr" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/init_sdr_ba" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/init_done" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_cmds" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_addr" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_ba" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/atref_req" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/atref_done" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/atref_en" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/clk" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/rst_n" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/sdr_ck" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/sdr_cke" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/sdr_csn" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/sdr_rasn" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/sdr_casn" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/sdr_wen" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/sdr_addr" does not have read access. Use switch +access +r for this region.
+# KERNEL: Warning: KERNEL_0085 "/tb_sdram_atref/u_sdram_ctrl_top/sdr_ba" does not have read access. Use switch +access +r for this region.
+# VSIM: 0 object(s) traced.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/init_sdr_cmds not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/init_sdr_addr not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/init_sdr_ba not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/init_done not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_cmds not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_addr not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_ba not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/atref_req not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/atref_done not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/atref_en not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/clk not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/rst_n not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/sdr_ck not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/sdr_cke not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/sdr_csn not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/sdr_rasn not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/sdr_casn not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/sdr_wen not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/sdr_addr not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /tb_sdram_atref/u_sdram_ctrl_top/sdr_ba not found in D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb.
+endsim
+# VSIM: Simulation has finished.
+alog -O2 -sve -msg 5 -sv2k12 -work aa $dsn/../../../rtl/sdram_atref.sv $dsn/../../../rtl/sdram_ctrl_top.sv $dsn/../../../rtl/sdram_init.sv $dsn/../../../tb/atref_tb.sv $dsn/../../../model/sdram_model_plus.v
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2876 ../../../../rtl/sdram_init.sv : (23, 21): Implicit net declaration, symbol sdr_cke has not been declared in module sdram_init.
+# Info: VCP2876 ../../../../rtl/sdram_init.sv : (24, 20): Implicit net declaration, symbol sdr_ck has not been declared in module sdram_init.
+# Pass 2. Processing instantiations.
+# Info: VCP2876 ../../../../tb/atref_tb.sv : (45, 57): Implicit net declaration, symbol Dq has not been declared in module tb_sdram_atref.
+# Pass 3. Processing behavioral statements.
+# Warning: VCP7060 ../../../../model/sdram_model_plus.v : (1067, 35): Argument "sdram_data.txt" should be a 32-bit multi_channel_descriptor.
+# Warning: VCP7060 ../../../../model/sdram_model_plus.v : (1082, 34): Argument "sdram_mem.txt" should be a 32-bit multi_channel_descriptor.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: tb_sdram_atref.
+# $root top modules: tb_sdram_atref.
+# Compile success 0 Errors 2 Warnings  Analysis time: 0[s].
+# Warning: ALOG: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# done
+asim -O5 +accb +accr +access +r +access +r+w tb_sdram_atref
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: ELBREAD_0049 Module 'sdram_ctrl_top' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'sdram_init' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Warning: ELBREAD_0049 Module 'sdram_atref' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Warning: atref_tb.sv (37): Length of connection (4) does not match the length of port "Dqm" (2) on instance "/tb_sdram_atref/u_sdram_model_plus".
+# SLP: Warning: atref_tb.sv (37): Length of connection (1) does not match the length of port "Dq" (32) on instance "/tb_sdram_atref/u_sdram_model_plus".
+# SLP: Elaboration phase ... done : 0.1 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.4 [s]
+# SLP: Finished : 0.4 [s]
+# SLP: 0 primitives and 32 (100.00%) other processes in SLP
+# SLP: 64 (40.25%) signals in SLP and 92 (57.86%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 22266 kB (elbread=427 elab2=21704 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location D:\fpag_codes\my_gits\6.sdram_ctrl\AHDL\aa\aa\src\wave.asdb
+#  15:23, 2023年4月30日
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'D:/fpag_codes/my_gits/6.sdram_ctrl/AHDL/aa/aa/src/wave.asdb'.
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/init_sdr_cmds}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/init_sdr_addr}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/init_sdr_ba}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/init_done}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_cmds}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_addr}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_sdr_ba}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_req}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_done}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/atref_en}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/clk}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/rst_n}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_ck}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_cke}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_csn}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_rasn}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_casn}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_wen}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_addr}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/sdr_ba}
+# VSIM: 20 object(s) traced.
+# WAVEFORM: 31 signal(s) removed.
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/sdr_cke}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/sdr_ck}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/line_cnt}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/wait_done}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/clk}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/rst_n}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/sdr_cmds}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/sdr_addr}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/sdr_ba}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_init/init_done}
+# VSIM: 10 object(s) traced.
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/state}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/next_state}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/ref_cycles_cnt}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/line_cnt}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/ref_end}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/clk}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/rst_n}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/sdr_cmds}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/sdr_addr}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/sdr_ba}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/init_done}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/atref_en}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/atref_req}
+# add wave -noreg {/tb_sdram_atref/u_sdram_ctrl_top/u_sdram_atref/atref_done}
+# VSIM: 14 object(s) traced.
+# WAVEFORM: 24 signal(s) removed.
+run 200us
+# KERNEL: stopped at time: 200 us
+run 10us
+# KERNEL: at time    200130 ns PRE  : Bank = ALL
+# KERNEL: at time    200160 ns AREF : Auto Refresh
+# KERNEL: at time    200230 ns AREF : Auto Refresh
+# KERNEL: at time    200300 ns LMR  : Load Mode Register
+# KERNEL:                             CAS Latency      = 3
+# KERNEL:                             Burst Length     = Full
+# KERNEL:                             Burst Type       = Sequential
+# KERNEL:                             Write Burst Mode = Programmed Burst Length
+# KERNEL: stopped at time: 210 us
+run 100us
+# KERNEL: at time    212850 ns PRE  : Bank = ALL
+# KERNEL: at time    212880 ns AREF : Auto Refresh
+# KERNEL: at time    212950 ns AREF : Auto Refresh
+# KERNEL: at time    225590 ns PRE  : Bank = ALL
+# KERNEL: at time    225620 ns AREF : Auto Refresh
+# KERNEL: at time    225690 ns AREF : Auto Refresh
+# KERNEL: at time    238330 ns PRE  : Bank = ALL
+# KERNEL: at time    238360 ns AREF : Auto Refresh
+# KERNEL: at time    238430 ns AREF : Auto Refresh
+# KERNEL: at time    251070 ns PRE  : Bank = ALL
+# KERNEL: at time    251100 ns AREF : Auto Refresh
+# KERNEL: at time    251170 ns AREF : Auto Refresh
+# KERNEL: at time    263810 ns PRE  : Bank = ALL
+# KERNEL: at time    263840 ns AREF : Auto Refresh
+# KERNEL: at time    263910 ns AREF : Auto Refresh
+# KERNEL: at time    276550 ns PRE  : Bank = ALL
+# KERNEL: at time    276580 ns AREF : Auto Refresh
+# KERNEL: at time    276650 ns AREF : Auto Refresh
+# KERNEL: at time    289290 ns PRE  : Bank = ALL
+# KERNEL: at time    289320 ns AREF : Auto Refresh
+# KERNEL: at time    289390 ns AREF : Auto Refresh
+# KERNEL: at time    302030 ns PRE  : Bank = ALL
+# KERNEL: at time    302060 ns AREF : Auto Refresh
+# KERNEL: at time    302130 ns AREF : Auto Refresh
+# KERNEL: stopped at time: 310 us

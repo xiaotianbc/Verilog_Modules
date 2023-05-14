@@ -3,9 +3,9 @@ module sdram_wr (
         input      rst_n,
 
         //SDRAM PHY
-        output      reg [3:0] sdr_cmds,
-        output      wire [10:0] sdr_addr,                        //addr
-        output      wire [1:0] sdr_ba,                           //bank addr
+        output      reg [3:0]       sdr_cmds,
+        output      reg [10:0]      sdr_addr,                        //addr
+        output      reg [1:0]       sdr_ba,                           //bank addr
         output      wire  [31:0]    sdr_dq,
         output      wire    [3:0]   sdr_dqm,
 
@@ -16,8 +16,8 @@ module sdram_wr (
         input           [31:0]      i_wr_data,              //写数据信号
         input           [ 7:0]      i_burst_len,            //突发写长度，每次突发写必须在一个Row里，所以长度小于Cloumn数量
         output                      o_wr_ack,               //写响应信号，拉高说明此时正在写数据
-        output                      o_wr_end,               //写结束信号，写入完成后拉高一个周期
-        output                      o_wr_output_en          //写入输出使能信号，拉高说明正在从DQ往外写数据
+        output            reg          o_wr_end,               //写结束信号，写入完成后拉高一个周期
+        output            reg          o_wr_output_en          //写入输出使能信号，拉高说明正在从DQ往外写数据
     );
 
 
@@ -48,10 +48,14 @@ module sdram_wr (
                        ST_BURST_TERM=4'b0111,
                        ST_WAIT_TWR=4'b0101,
                        ST_PRE=4'b0100,
-                       ST_WAIT_PRE=4'b1100
+                       ST_WAIT_PRE=4'b1100,
+                       ST_WR_END=4'b1101
                      } state, next_state;
 
     logic   [7:0]   fsm_cnt;                //各种状态机公用的计数器
+
+
+    reg [20:0]      i_wr_addr_r;
 
     always_ff @( posedge clk ) begin
         if (!rst_n) begin
@@ -81,7 +85,9 @@ module sdram_wr (
             ST_PRE:
                 next_state=ST_WAIT_PRE;
             ST_WAIT_PRE:
-                next_state=(fsm_cnt==tRP-2)?ST_IDLE:ST_WAIT_PRE;
+                next_state=(fsm_cnt==tRP-2)?ST_WR_END:ST_WAIT_PRE;
+            ST_WR_END:
+                next_state=ST_IDLE;
             default:
                 next_state=ST_IDLE;
         endcase
@@ -141,10 +147,78 @@ module sdram_wr (
                     sdr_cmds<=CMD_NOP;
                 ST_PRE:
                     sdr_cmds<=CMD_PRECHARGE;
-                ST_WAIT_PRE:
+                ST_WAIT_PRE,ST_WR_END:
                     sdr_cmds<=CMD_NOP;
                 default:
                     sdr_cmds<=CMD_NOP;
+            endcase
+        end
+    end
+
+
+    //写地址信号，Bank地址(2)+Row地址(11)+Column地址(8)
+    always_ff @( posedge clk ) begin
+        if (!rst_n) begin
+            i_wr_addr_r<='h0;
+        end
+        else begin
+            if (i_wr_en) begin
+                i_wr_addr_r<=i_wr_addr;
+            end
+            else begin
+                i_wr_addr_r<=i_wr_addr_r;
+            end
+        end
+    end
+
+    //output      reg [10:0] sdr_addr,                        //addr
+    always_ff @( posedge clk ) begin
+        if (!rst_n) begin
+            sdr_addr<={11{1'b1}};
+            sdr_ba<=2'b00;
+        end
+        else begin
+            case (state)
+                ST_IDLE: begin
+                    sdr_addr<=11'h0;
+                    sdr_ba<=2'b00;
+                end
+                ST_ACT,ST_WAIT_TRCD: begin
+                    sdr_addr<=i_wr_addr_r[18:8];    //激活行，输入行地址
+                    sdr_ba<=i_wr_addr_r[20:19];     //Bank地址
+                end
+
+                ST_START_WR,ST_WR_ING,ST_BURST_TERM,ST_WAIT_TWR: begin
+                    sdr_addr<={3'b000,i_wr_addr_r[7:0]} ;    //写入列地址
+                    sdr_ba<=i_wr_addr_r[20:19];              //Bank地址
+                end
+
+                ST_PRE,ST_WAIT_PRE,ST_WR_END: begin
+                    sdr_addr<={11{1'b1}} ;    //所有Bank预充电
+                    sdr_ba<=i_wr_addr_r[20:19];     //Bank地址
+                end
+                default: begin
+                    sdr_addr<={11{1'b1}};
+                    sdr_ba<=2'b00;
+                end
+            endcase
+        end
+    end
+
+
+    //o_wr_end
+    always_ff @( posedge clk ) begin
+        if (!rst_n) begin
+            o_wr_end<=1'b0;
+        end
+        else begin
+            case (state)
+                ST_WR_END: begin
+                    o_wr_end<=1'b1;
+                end
+                default: begin
+                    o_wr_end<=1'b0;
+                end
             endcase
         end
     end
